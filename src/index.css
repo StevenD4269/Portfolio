@@ -1,7 +1,7 @@
 /* Grab some fonts from google fonts for some razzle dazzle */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -26,4 +26,29 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+/* create a one of two buttons */
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase; /*make uppercase*/
+  background: rgb(248, 217, 15);
+  color: #222; /*text color*/
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer; /*control my cursor appearance*/
+}
+
+/* Make a second button that is a lighter color */
+.btn-light {
+  background: transparent; /*makes fully transparent*/
+  color: #fff;
+}
+
+.btn:hover {
+  /*hover will let me select and element on mouseover*/
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s; /*change the value over 0.3s*/
 }
