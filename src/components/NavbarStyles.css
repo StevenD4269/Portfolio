@@ -1,0 +1,8 @@
+/* place into one row */
+.nav-menu {
+    display: flex;
+}
+/* add padding left to right to each link*/
+.nav-menu li {
+    padding: 0 1rem;
+}
