@@ -1,3 +1,11 @@
+/* Target the header class so I can align the items higher and spaced out */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
 /* place into one row */
 .nav-menu {
     display: flex;
@@ -5,4 +13,9 @@
 /* add padding left to right to each link*/
 .nav-menu li {
     padding: 0 1rem;
+}
+
+.nav-menu li a {
+    font-size: 1.2rem;
+    font-weight: 500;
 }

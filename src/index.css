@@ -1,13 +1,29 @@
-body {
+/* Grab some fonts from google fonts for some razzle dazzle */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  /* pull the font family from google fonts and the url */
+  font-family: "Outfit", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* target the whole body and make it black because this background is blinding me */
+body {
+  background: black;
+}
+
+/* target headers and paragraphs and anchors to change the color and remove the underline */
+
+h1,
+h4,
+p,
+a {
+  color: white;
+  text-decoration: none; /*removes the underline*/
+}
+
+ul {
+  list-style-type: none;
 }
