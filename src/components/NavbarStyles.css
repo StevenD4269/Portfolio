@@ -19,3 +19,28 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+/* Max width size?? stops stacking at certain numbers. Maybe use a percentage? */
+@media screen and (max-width: 2000px) {
+    .nav-menu{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    /*everthing is now centering and moving so the bottom code may be a bandaid, will reevaluate later*/
+    position: absolute; /*positions to its ancestor*/
+    top: 0; /*sets the margin edge*/
+    left: 0;
+    z-index: -3; /*control how it stacks, the lower the number the more it appears on bottom*/
+    }
+}
+/* add padding to all the list items */
+.nav-menu li {
+    padding: 1rem 0;
+}
+/* add font size to only the anchor tag of the list item*/
+.nav-menu li a {
+    font-size: 2rem;
+}
