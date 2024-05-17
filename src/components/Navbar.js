@@ -25,7 +25,7 @@ const Navbar = () => {
               </li>
       </ul>
       <div className="hamburger">
-        <FaBars />
+        <FaBars size={20} style={{color:"#fff"}} />
       </div>
     </div>
   );

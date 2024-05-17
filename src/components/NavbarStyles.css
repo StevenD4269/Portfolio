@@ -21,7 +21,7 @@
 }
 
 /* Max width size?? stops stacking at certain numbers. Maybe use a percentage? */
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 1040px) {
     .nav-menu{
     flex-direction: column;
     justify-content: center;
